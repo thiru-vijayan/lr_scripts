@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=DummyContentType
+StepName=Custom Request: LaunchHomePage
+Total=1
+FileName1=t1.UNK
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=1523647148961
+RawStepName=LaunchHomePage
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1523647148589
+URL1=file:

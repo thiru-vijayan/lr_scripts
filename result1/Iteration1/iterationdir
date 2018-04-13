@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[HttpBin]
+SnapshotIndex=I1_HttpBin
+[vuser_end]
+SnapshotIndex=I1_vuser_end

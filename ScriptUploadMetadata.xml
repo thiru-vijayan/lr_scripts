@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>REST_API_20180413</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="HttpBin.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="REST_API_20180413.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="REST_API_20180413.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="P_url.dat" Filter="2" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
+    <FileEntry Name="Bookmarks.xml" Filter="2" />
+    <FileEntry Name="Breakpoints.xml" Filter="2" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
+    <FileEntry Name="UserTasks.xml" Filter="2" />
+    <FileEntry Name="combined_REST_API_20180413.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="10511655744.idx" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="GenerateClaimNo00.prm.bak" Filter="1" />
+    <FileEntry Name="Generate_ProcessClaimXML.prm.bak" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvb7a.621.log" Filter="1" />
+    <FileEntry Name="mdrvBVa.895.log" Filter="1" />
+    <FileEntry Name="mdrvcUw.287.log" Filter="1" />
+    <FileEntry Name="mdrvCXc.363.log" Filter="1" />
+    <FileEntry Name="mdrveG3.605.log" Filter="1" />
+    <FileEntry Name="mdrvGFl.239.log" Filter="1" />
+    <FileEntry Name="mdrvkCH.825.log" Filter="1" />
+    <FileEntry Name="mdrvovj.343.log" Filter="1" />
+    <FileEntry Name="mdrvRSp.25.log" Filter="1" />
+    <FileEntry Name="mdrvS9X.201.log" Filter="1" />
+    <FileEntry Name="mdrvXpJ.311.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="P_datelong.dat" Filter="1" />
+    <FileEntry Name="P_depstn.dat" Filter="1" />
+    <FileEntry Name="P_depstnID.dat" Filter="1" />
+    <FileEntry Name="P_emailID.dat" Filter="1" />
+    <FileEntry Name="P_FarecardID.dat" Filter="1" />
+    <FileEntry Name="REST_API_20180413.c.pickle" Filter="1" />
+    <FileEntry Name="REST_API_20180413.ci" Filter="1" />
+    <FileEntry Name="REST_API_20180413.prm.bak" Filter="1" />
+    <FileEntry Name="REST_API_20180413.sdf" Filter="1" />
+    <FileEntry Name="ServiceGuarantee_ProcessClaimXML_20180319.prm.bak" Filter="1" />
+    <FileEntry Name="ServiceGuarantee_ProcessClaimXML_20180320.prm.bak" Filter="1" />
+    <FileEntry Name="ServiceGuarantee_ProcessClaimXML_StaticDate_20180328.prm.bak" Filter="1" />
+    <FileEntry Name="ServiceGuarante_ProcessClaimXML.prm.bak" Filter="1" />
+    <FileEntry Name="ServiceGuarante_StaticTime_ProcessClaimXML.prm.bak" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

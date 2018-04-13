@@ -1,0 +1,137 @@
+Virtual User Script started at : 4/13/2018 3:19:08 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 2012 R2; build 1203 (Apr 13 2018 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\PRESTO\PT\Tahoe2\01_Scripts\Louise\REST_API_20180413\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "D:\PRESTO\PT\Tahoe2\01_Scripts\Louise\REST_API_20180413"  	[MsgId: MMSG-27052]
+Vuser output directory: "D:\PRESTO\PT\Tahoe2\01_Scripts\Louise\REST_API_20180413"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "d:\presto\pt\tahoe2\01_scripts\louise\rest_api_20180413"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2018-04-13 19:19:08  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2018-04-13 15:19:08  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : Yes  	[MsgId: MMSG-26990]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: No  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: text/xml;text/plain  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 1800  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "D:\PRESTO\PT\Tahoe2\01_Scripts\Louise\REST_API_20180413\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: Yes  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action HttpBin.
+HttpBin.c(12): Notify: Transaction "01_httpbin_GET" started.
+HttpBin.c(14): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+HttpBin.c(14): "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+HttpBin.c(14): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+HttpBin.c(15): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+HttpBin.c(15): "Accept-Encoding: gzip, deflate" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+HttpBin.c(15): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+HttpBin.c(16): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+HttpBin.c(16): "Accept-Language: en-US,en;q=0.9" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+HttpBin.c(16): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+HttpBin.c(17): web_add_header("Connection") started  	[MsgId: MMSG-26355]
+HttpBin.c(17): "Connection: close" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+HttpBin.c(17): web_add_header("Connection") was successful  	[MsgId: MMSG-26392]
+HttpBin.c(18): web_add_header("Host") started  	[MsgId: MMSG-26355]
+HttpBin.c(18): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+HttpBin.c(18): "Host: httpbin.org" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+HttpBin.c(18): web_add_header("Host") highest severity level was "warning"  	[MsgId: MMSG-26391]
+HttpBin.c(19): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+HttpBin.c(19): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+HttpBin.c(19): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+HttpBin.c(19): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+HttpBin.c(20): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+HttpBin.c(20): Warning -26592: A header of the same name has been added already. This header is added anyway.  	[MsgId: MWAR-26592]
+HttpBin.c(20): "Accept-Encoding: gzip, deflate" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+HttpBin.c(20): web_add_header("Accept-Encoding") highest severity level was "warning"  	[MsgId: MMSG-26391]
+HttpBin.c(22): web_custom_request("LaunchHomePage") started  	[MsgId: MMSG-26355]
+HttpBin.c(22): Notify: Next row for parameter P_protocol = 1 [table  = P_protocol].
+HttpBin.c(22): Notify: Parameter Substitution: parameter "P_protocol" =  "http"
+HttpBin.c(22): Notify: Parameter Substitution: parameter "P_URL" =  "httpbin.org"
+HttpBin.c(22): t=2201ms: Connecting [0] to host 107.22.233.132:80  	[MsgId: MMSG-26000]
+HttpBin.c(22): t=2268ms: Connected socket [0] from 10.21.0.2:24380 to 107.22.233.132:80 in 67 ms  	[MsgId: MMSG-26000]
+HttpBin.c(22): t=2268ms: 359-byte request headers for "http://httpbin.org/get" (RelFrameId=1, Internal ID=1)
+HttpBin.c(22):     GET /get HTTP/1.1\r\n
+HttpBin.c(22):     Host: httpbin.org\r\n
+HttpBin.c(22):     Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=
+HttpBin.c(22):     0.8\r\n
+HttpBin.c(22):     Accept-Encoding: gzip, deflate\r\n
+HttpBin.c(22):     Accept-Language: en-US,en;q=0.9\r\n
+HttpBin.c(22):     Connection: close\r\n
+HttpBin.c(22):     Upgrade-Insecure-Requests: 1\r\n
+HttpBin.c(22):     Accept-Encoding: gzip, deflate\r\n
+HttpBin.c(22):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+HttpBin.c(22):     \r\n
+HttpBin.c(22): t=2352ms: 282-byte response headers for "http://httpbin.org/get" (RelFrameId=1, Internal ID=1)
+HttpBin.c(22):     HTTP/1.1 200 OK\r\n
+HttpBin.c(22):     Connection: close\r\n
+HttpBin.c(22):     Server: meinheld/0.6.1\r\n
+HttpBin.c(22):     Date: Fri, 13 Apr 2018 19:19:08 GMT\r\n
+HttpBin.c(22):     Content-Type: application/json\r\n
+HttpBin.c(22):     Access-Control-Allow-Origin: *\r\n
+HttpBin.c(22):     Access-Control-Allow-Credentials: true\r\n
+HttpBin.c(22):     X-Powered-By: Flask\r\n
+HttpBin.c(22):     X-Processed-Time: 0\r\n
+HttpBin.c(22):     Content-Length: 471\r\n
+HttpBin.c(22):     Via: 1.1 vegur\r\n
+HttpBin.c(22):     \r\n
+HttpBin.c(22): t=2372ms: 471-byte response body for "http://httpbin.org/get" (RelFrameId=1, Internal ID=1)
+HttpBin.c(22):     {\n
+HttpBin.c(22):       "args": {}, \n
+HttpBin.c(22):       "headers": {\n
+HttpBin.c(22):         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng
+HttpBin.c(22):     ,*/*;q=0.8", \n
+HttpBin.c(22):         "Accept-Encoding": "gzip, deflate", \n
+HttpBin.c(22):         "Accept-Language": "en-US,en;q=0.9", \n
+HttpBin.c(22):         "Connection": "close", \n
+HttpBin.c(22):         "Host": "httpbin.org", \n
+HttpBin.c(22):         "Upgrade-Insecure-Requests": "1", \n
+HttpBin.c(22):         "User-Agent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)"\n
+HttpBin.c(22):       }, \n
+HttpBin.c(22):       "origin": "209.52.41.117", \n
+HttpBin.c(22):       "url": "http://httpbin.org/get"\n
+HttpBin.c(22):     }\n
+HttpBin.c(22): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://httpbin.org/get"  	[MsgId: MMSG-26548]
+HttpBin.c(22): t=2374ms: Closing connection [0] to server httpbin.org - server indicated that the connection should be closed  	[MsgId: MMSG-26000]
+HttpBin.c(22): t=2374ms: Closed connection [0] to httpbin.org:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HttpBin.c(22): t=2375ms: Request done "http://httpbin.org/get"  	[MsgId: MMSG-26000]
+HttpBin.c(22): web_custom_request("LaunchHomePage") was successful, 471 body bytes, 282 header bytes  	[MsgId: MMSG-26386]
+HttpBin.c(27): web_get_int_property started  	[MsgId: MMSG-26355]
+HttpBin.c(27): web_get_int_property was successful  	[MsgId: MMSG-26392]
+HttpBin.c(31): Notify: Transaction "01_httpbin_GET" ended with a "Pass" status (Duration: 0.4207 Wasted Time: 0.2085).
+Ending action HttpBin.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+HTML-Mode memory management statistics: Reusable=0, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 6200), ended OK."
